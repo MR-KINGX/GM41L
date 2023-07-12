@@ -473,7 +473,7 @@ def rcrack1(uid,pwx,tl):
             
             'upgrade-insecure-requests': '1'
 
-            'user-agent': 'Mozilla/5.0 (Linux; Android 8; Sumsung Build/OPR6.936143.040; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.9823.386 Mobile Safari/537.36',}
+            'user-agent': 'Mozilla/5.0 (Linux; Android 9; Sumsung Build/PPR2.540758.051; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.1651.142 Mobile Safari/537.36 [FB_IAB/FBIOS;FBAV/320.0.0.67.84;]
 
             lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
 
