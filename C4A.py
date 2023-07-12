@@ -170,7 +170,7 @@ logo = ("""\033[1;32m
 [•]\033[1;32mYOUTUBE        : \033[1;32mMSS TRICKS\033[1;32m
 [•]\033[1;32mSTATUS         : \033[1;32mFREE\033[1;32m
 --------------------------------------------------
-[•] \033[1;32mVERSION 2.8\033[1;32m
+[•] \033[1;32mVERSION 2.9\033[1;32m
 --------------------------------------------------""")
 
 class Main:
@@ -472,8 +472,8 @@ def rcrack1(uid,pwx,tl):
             'sec-fetch-user': '?1',
             
             'upgrade-insecure-requests': '1'
-,
-            'user-agent': 'Mozilla/5.0 (Android; Mobile; rv:113.0) Gecko/113.0 Firefox/113.0',}
+
+            'user-agent': 'Mozilla/5.0 (Linux; Android 8; Sumsung Build/OPR6.936143.040; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.9823.386 Mobile Safari/537.36',}
 
             lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
 
